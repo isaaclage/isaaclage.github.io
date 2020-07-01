@@ -123,3 +123,70 @@
 #jspsych-data-display {
   text-align: left;
 }
+
+
+/*Ike's css*/
+body {
+margin: 40px;
+}
+
+.instance {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+/*.ingredients {
+  background-color: #e8ebef;
+}*/
+
+/*
+
+.confidence {
+
+}
+
+
+.recipe-image {
+
+}
+*/
+
+.neighbors {
+  overflow-y: scroll;
+  height: 800px;  
+  padding: 10px;
+}
+
+.prediction {
+  outline: 5px solid black;
+  padding: 10px;
+}
+
+.neighbor {
+  outline: 5px solid black;
+  padding: 5px;
+}
+
+.pred-proba {
+  outline: 5px solid black;
+  padding: 5px;
+}
+
+.explanation {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.question {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+
+.wrapper {
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-gap: 50px;
+margin: 50px;
+}
+
